@@ -1,0 +1,49 @@
+.navbar
+{
+    background-color: rgb(0, 0, 0);
+    height:75px;
+    width:100%; 
+}
+.navbar ul li a
+{
+text-decoration: none;
+color: white;
+margin: 15px;
+font-size: 20px;
+font-family: serif;
+}
+
+.navbar ul
+{
+    float: right;
+}
+.dropdown ul li a
+{
+    display: block;
+   
+}
+body
+{
+    background-color: gray
+}
+.dropdown
+{
+    display: none;
+}
+.navbar ul li:hover .dropdown
+{
+    display: block; 
+}
+.dropdown ul li
+{
+    background-color: red;
+}
+.navbar ul li a:hover 
+{
+    background-color: blanchedalmond;
+    
+}
+.dropdown :hover
+{
+    background-color: blanchedalmond;
+}
